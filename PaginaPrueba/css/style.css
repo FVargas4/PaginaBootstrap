@@ -1,5 +1,5 @@
 body {
-    background: black; 
+    background: rgba(0, 0, 0, 0.9); 
     margin: 0;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -66,8 +66,31 @@ header:hover::after{
 
 }
 
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
 .text-center{
     text-align: center;
     margin: auto;
     
 }
+
+.bg-light{
+    background: #fff;
+    color: #2f3542;
+}
+
+.bg-dark{
+    background: #2f3542;
+    color: #fff;
+}
+
