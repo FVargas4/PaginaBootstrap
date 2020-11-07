@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 0, 0, 0.9); 
+    background: rgba(0, 0, 0, 0.9);
     margin: 0;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -84,7 +84,7 @@ header:hover::after{
 .text-center{
     text-align: center;
     margin: auto;
-    
+
 }
 
 .bg-light{
@@ -110,7 +110,7 @@ footer p{
     margin:0;
 }
 
-@media(max-widht: 560px){
+@media(max-width: 560px){
     .header::after{
         height: 50vh;
     }
@@ -131,7 +131,7 @@ footer p{
     .grid-3, .grid-2 {
         grid-template-columns: 1fr;
       }
-    
+
       .services div {
         padding: 1.4rem 1rem;
       }
